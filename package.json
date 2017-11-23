@@ -1,0 +1,27 @@
+{
+  "name": "MirrorServer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server":"node ./server/BackServer.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cyan-Coco/MirrorServer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cyan-Coco/MirrorServer/issues"
+  },
+  "homepage": "https://github.com/Cyan-Coco/MirrorServer#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "ejs": "^2.5.7",
+    "es6-promise": "^4.1.1",
+    "express": "^4.16.2",
+    "express-session": "^1.15.6"
+  }
+}
